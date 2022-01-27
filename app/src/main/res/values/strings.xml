@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Granthalaya</string>
+    <string name="title_activity_second">Welcome to Granthalaya</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="username_display"></string>
+    <string name="wish">Wishlist</string>
+    <string name="trending">Trending</string>
+    <string name="categories">Categories</string>
+    <string name="notifications">Notifications</string>
+    <string name="recent">Recent</string>
+    <string name="search">Search</string>
+    <string name="book_search">Lets find a Book</string>
+    <string name="Recent_text">Welcome, Browse Your Recent Activities Here</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="category_fantasy">Fantasy</string>
+    <string name="select_your_favourite_categories">Select categories </string>
+    <string name="category_adventure">Adventure</string>
+    <string name="category_mystery">Mystery</string>
+    <string name="category_horror">Horror</string>
+    <string name="category_thriller">Thriller</string>
+    <string name="category_search">Search</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="login">LOGIN</string>
+    <string name="logout">Logout</string>
+    <string name="add_wishlist">Add</string>
+    <string name="add_book_name">Add Book Name</string>
+    <string name="add_authors_name">Add Authors Name</string>
+    <string name="show_wishlist">Show wishlist</string>
+    <string name="title_activity_firestore">FirestoreActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+   <!-- <string name="hello_world">Hello Square World!</string>-->
+</resources>

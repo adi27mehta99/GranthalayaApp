@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.granthalaya" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="ExtraText" >
+        </activity>
+        <activity android:name=".MainActivity" >
+
+        </activity>
+        <activity android:name=".FirestoreActivity"
+            android:label="Wishlist from Firestore"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ViewWishListActiity"
+            android:label="WishList"
+            />
+        <activity android:name=".NewBookActivity"
+            android:label="Add Books to Your Wishlist"
+            />
+        <activity android:name=".ViewSearchActivity"
+            android:label="Search Library Collection"/>
+        <activity android:name=".NotificationActivity"
+            android:label="Notification"/>
+        <activity android:name=".ViewFavouriteActivity"
+            android:label="Your All Time Favourites"/>
+        <activity android:name=".NewFavouriteBookActivity"
+            android:label="Add your favourites"/>
+        <activity android:name=".SplashScreenActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+</manifest>
